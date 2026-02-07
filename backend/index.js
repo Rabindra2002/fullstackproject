@@ -23,6 +23,6 @@ app.get("/api/facts",(req,res)=>{
     res.status(200).json(facts)
 })
 
-app.listen(2000,()=>{
-    console.log('Server is running on port 2000')
+app.listen(3000,()=>{
+    console.log('Server is running on port 3000')
 })

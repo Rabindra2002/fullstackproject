@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(()=>{
     let fetching=async()=>{
-      const response=await fetch("http://localhost:2000/api/facts")
+      const response=await fetch("https://fullstackproject-m9rj.onrender.com/api/facts")
       const data=await response.json()
       setFact(data)
     }
